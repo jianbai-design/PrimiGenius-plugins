@@ -1,0 +1,17 @@
+{
+  "registry_version": "2.0",
+  "plugins": [
+    {
+      "id": "mafft_align",
+      "version": "3.0.0",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/mafft_align-v3.0.0/mafft_align-3.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/mafft_align-v3.0.0/mafft_align-3.0.0.zip.sig",
+      "sha256": "55c546b6417fa9a83cd8f991d42199cf0ab5cd2db157adc137448fb4c1eee26a",
+      "changelog": {
+        "zh": "初始发布版本",
+        "en": "Initial release"
+      },
+      "min_app_version": "1.0.3"
+    }
+  ]
+}
