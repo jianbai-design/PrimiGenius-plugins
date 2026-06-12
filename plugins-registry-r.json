@@ -1,0 +1,272 @@
+{
+  "registry_version": "1.0",
+  "registry_kind": "r",
+  "generated_at": "2026-06-12T08:27:05.970Z",
+  "plugins": [
+    {
+      "id": "volcano_panel",
+      "name": {
+        "en": "Volcano Plot",
+        "zh": "火山图"
+      },
+      "description": {
+        "en": "Generate publication-quality volcano plots from differential expression data using R ggplot2. SVG output opens in an independent native editor window for interactive editing and multi-format export (PDF/PNG/TIF/SVG).",
+        "zh": "使用 R ggplot2 从差异表达数据生成火山图。"
+      },
+      "type": "r_panel",
+      "registry_kind": "r",
+      "category": {
+        "zh": "高级可视化",
+        "en": "Advanced Visualization"
+      },
+      "version": "1.0.0",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/volcano_panel-1.0.0/volcano_panel-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/volcano_panel-1.0.0/volcano_panel-1.0.0.zip.sig",
+      "sha256": "d2542e20fbc462dffc95f2337fb92201c7ac19eedb126314cc2828136a5f6170",
+      "changelog": {
+        "zh": "首次发布",
+        "en": "Initial release"
+      },
+      "min_app_version": "1.0.3",
+      "icon": "fa-mountain",
+      "icon_color": "#d32f2f",
+      "docker_image": "rocker/r-ver:latest",
+      "packages": [
+        "ggplot2",
+        "data.table",
+        "readxl",
+        "ggrepel",
+        "svglite"
+      ],
+      "author": "PrimiGenius"
+    },
+    {
+      "id": "upsetplot",
+      "name": {
+        "en": "UpSet Plot",
+        "zh": "UpSet 集合交集图"
+      },
+      "description": {
+        "en": "ComplexHeatmap-based UpSet plot with list or binary input.",
+        "zh": "基于 ComplexHeatmap 的 UpSet 绘图，支持列表型或二值矩阵输入。"
+      },
+      "type": "r_panel",
+      "registry_kind": "r",
+      "category": {
+        "zh": "高级可视化",
+        "en": "Advanced Visualization"
+      },
+      "version": "1.0.0",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/upsetplot-1.0.0/upsetplot-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/upsetplot-1.0.0/upsetplot-1.0.0.zip.sig",
+      "sha256": "f7c6d4486b55ac0cf125d5dfded2add3c330f953f8c0d4d225d30642417776c2",
+      "changelog": {
+        "zh": "首次发布",
+        "en": "Initial release"
+      },
+      "min_app_version": "1.0.3",
+      "icon": "fa-circle-notch",
+      "icon_color": "#FF5722",
+      "docker_image": "rocker/r-ver:latest",
+      "packages": [
+        "ComplexHeatmap",
+        "VennDiagram",
+        "ggplotify",
+        "ggplot2",
+        "openxlsx",
+        "readxl",
+        "data.table",
+        "svglite",
+        "circlize"
+      ],
+      "author": "PrimiGenius"
+    },
+    {
+      "id": "r_venn_advanced",
+      "name": {
+        "zh": "韦恩图绘制",
+        "en": "Venn Diagram"
+      },
+      "description": {
+        "zh": "支持文件上传或直接粘贴数据，最多支持 7 个数据集，支持面积比例欧拉图绘制。",
+        "en": "Supports file upload or direct paste. Up to 7 sets. Journal color themes, supports proportional Euler diagrams."
+      },
+      "type": "R_panel",
+      "registry_kind": "r",
+      "category": {
+        "zh": "高级可视化",
+        "en": "Advanced Visualization"
+      },
+      "version": "1.0.0",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/r_venn_advanced-1.0.0/r_venn_advanced-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/r_venn_advanced-1.0.0/r_venn_advanced-1.0.0.zip.sig",
+      "sha256": "dd544c568bf86011e28e844b2871c43a74e8b8b3359c0be5b7bfcb3bd92601b6",
+      "changelog": {
+        "zh": "首次发布",
+        "en": "Initial release"
+      },
+      "min_app_version": "1.0.3",
+      "icon": "fa-circle-notch",
+      "icon_color": "#FF5722",
+      "docker_image": "rocker/r-ver:latest",
+      "packages": [
+        "ggVennDiagram",
+        "ggplot2",
+        "readr",
+        "readxl",
+        "dplyr",
+        "svglite",
+        "RColorBrewer",
+        "eulerr"
+      ],
+      "author": "PrimiGenius"
+    },
+    {
+      "id": "deseq2_tool",
+      "name": {
+        "zh": "DESeq2 差异表达分析",
+        "en": "DESeq2 Analysis"
+      },
+      "description": {
+        "zh": "标准流程：Count 矩阵 -> 预过滤 -> 差异分析。支持一次性运行多个处理组对同一对照组的比较。输出包含原始表达量的结果表及全套矢量图表。",
+        "en": "Pipeline: Counts -> Filtering -> DE Analysis. Supports multiple comparisons (comma-separated). Outputs: Tables with raw counts, PCA, Heatmap, Volcano, MA-plot, etc."
+      },
+      "type": "r-script",
+      "registry_kind": "r",
+      "category": {
+        "zh": "差异分析",
+        "en": "Differential Expression"
+      },
+      "version": "1.0.0",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/deseq2_tool-1.0.0/deseq2_tool-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/deseq2_tool-1.0.0/deseq2_tool-1.0.0.zip.sig",
+      "sha256": "c3a93555dbd98f5debef0db7068875d4a99eef03e3101b5a4dbc399bcd3da383",
+      "changelog": {
+        "zh": "首次发布",
+        "en": "Initial release"
+      },
+      "min_app_version": "1.0.3",
+      "icon": "fa-filter",
+      "icon_color": "#9C27B0",
+      "docker_image": "rocker/r-ver:latest",
+      "packages": [
+        "BiocManager",
+        "DESeq2",
+        "ggplot2",
+        "pheatmap",
+        "RColorBrewer",
+        "ggrepel"
+      ]
+    },
+    {
+      "id": "dimension_reduction",
+      "name": {
+        "zh": "PCA/UMAP 降维分析",
+        "en": "PCA/UMAP Dimensionality Reduction"
+      },
+      "description": {
+        "zh": "输入数据表（列为样品，行为变量，含表头），可选分组表（第1列样品名、第2列分组名）。支持 PCA（线性）和 UMAP（非线性）两种降维方法，可绘制 2D/3D 散点图、置信椭圆、碎石图（PCA）与相关环/箭头（PCA），自动过滤方差为0或含NA/Inf的行，并导出 SVG 与 600dpi 透明 PNG。",
+        "en": "Dimensionality reduction with data table (columns=samples, rows=variables) and optional group table. Supports PCA (linear) and UMAP (non-linear). Outputs 2D/3D scatter, confidence ellipse, scree plot (PCA), correlation circle/arrows (PCA), auto-filters zero-variance and NA/Inf rows, and exports SVG plus 600dpi transparent PNG."
+      },
+      "type": "R_panel",
+      "registry_kind": "r",
+      "category": {
+        "zh": "降维分析",
+        "en": "Dimensionality Reduction"
+      },
+      "version": "1.0.0",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/dimension_reduction-1.0.0/dimension_reduction-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/dimension_reduction-1.0.0/dimension_reduction-1.0.0.zip.sig",
+      "sha256": "fe1352295f025dd5f8159460c0280208c447ac0a8efb7e5adceaffb71ed36457",
+      "changelog": {
+        "zh": "首次发布",
+        "en": "Initial release"
+      },
+      "min_app_version": "1.0.3",
+      "icon": "fa-compress-alt",
+      "icon_color": "#388e3c",
+      "docker_image": "rocker/r-ver:latest",
+      "packages": [
+        "ggplot2",
+        "ggrepel",
+        "readxl",
+        "svglite",
+        "scatterplot3d",
+        "umap"
+      ],
+      "author": "PrimiGenius"
+    },
+    {
+      "id": "heatmap",
+      "name": {
+        "zh": "热图",
+        "en": "Heatmap"
+      },
+      "description": {
+        "zh": "基于ComplexHeatmap包的多参数热图绘制插件。",
+        "en": "ComplexHeatmap multi-parameter heatmap visualization plugin."
+      },
+      "type": "R_panel",
+      "registry_kind": "r",
+      "category": {
+        "zh": "高级可视化",
+        "en": "Advanced Visualization"
+      },
+      "version": "1.0.0",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/heatmap-1.0.0/heatmap-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/heatmap-1.0.0/heatmap-1.0.0.zip.sig",
+      "sha256": "58ea197d97eb9cf6e0015bb78cb73c09039b34f5cad4eba07d570c9f06b6277a",
+      "changelog": {
+        "zh": "首次发布",
+        "en": "Initial release"
+      },
+      "min_app_version": "1.0.3",
+      "icon": "fa-th",
+      "icon_color": "#e65100",
+      "docker_image": "rocker/r-ver:latest",
+      "packages": [
+        "ComplexHeatmap",
+        "RColorBrewer",
+        "circlize",
+        "dendextend"
+      ]
+    },
+    {
+      "id": "deg_rank_plot",
+      "name": {
+        "zh": "差异基因表达排序图",
+        "en": "DEG Rank Plot"
+      },
+      "description": {
+        "zh": "基于差异分析结果绘制基因表达变化排序图（颜色映射 P 值，点大小映射 Log2FoldChange 绝对值）。",
+        "en": "Draw ranked differential-expression curve from DE results (color mapped to P-value and point size mapped to absolute log2 fold change)."
+      },
+      "type": "R_panel",
+      "registry_kind": "r",
+      "category": {
+        "en": "Advanced Visualization",
+        "zh": "高级可视化"
+      },
+      "version": "1.0.0",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/deg_rank_plot-1.0.0/deg_rank_plot-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/deg_rank_plot-1.0.0/deg_rank_plot-1.0.0.zip.sig",
+      "sha256": "18726c33332af6d183bc4dc99520b6368a18df996cbfe4fea0b76d3b2d5f43ee",
+      "changelog": {
+        "zh": "首次发布",
+        "en": "Initial release"
+      },
+      "min_app_version": "1.0.3",
+      "icon": "fa-chart-line",
+      "icon_color": "#C62828",
+      "docker_image": "rocker/r-ver:latest",
+      "packages": [
+        "ggplot2",
+        "ggrepel",
+        "readxl",
+        "data.table",
+        "svglite"
+      ],
+      "author": "PrimiGenius"
+    }
+  ]
+}
