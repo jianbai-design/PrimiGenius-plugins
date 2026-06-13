@@ -415,8 +415,8 @@
         "en": "InterProScan Annotation"
       },
       "description": {
-        "zh": "基于序列的蛋白质功能注释与结构域预测。",
-        "en": "Protein function annotation and domain prediction."
+        "zh": "基于序列的蛋白质功能注释与结构域预测。含有12g左右的数据库",
+        "en": "Protein function annotation and domain prediction. Include 12g database."
       },
       "type": "linux_panel",
       "registry_kind": "cli",
@@ -473,7 +473,7 @@
         "en": "eggNOG-mapper Annotation"
       },
       "description": {
-        "zh": "基于 eggNOG 数据库的功能注释。含有12G左右的数据库。",
+        "zh": "基于 eggNOG 数据库的功能注释。含有30G左右的数据库。",
         "en": "Functional annotation based on eggNOG database. Include 12g database."
       },
       "type": "cli",
