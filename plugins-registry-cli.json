@@ -1221,6 +1221,55 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3"
-    }
+    },
+        {
+      "id": "kofam_scan",
+      "name": {
+        "zh": "KofamScan 功能注释",
+        "en": "KofamScan Functional Annotation"
+      },
+      "description": {
+        "zh": "基于 KEGG Orthology 和隐马尔可夫模型的基因功能注释工具，如需更新数据库，请到：https://www.genome.jp/ftp/db/kofam/下载ko_list.gz和profiles.tar.gz，将两个文件放在db文件夹下，并删除.cache文件夹。",
+        "en": "Gene function annotation tool based on KEGG Orthology and HMM, to update database, please download ko_list.gz and profiles.tar.gz from https://www.genome.jp/ftp/db/kofam/ and put them in db folder, then delete .cache folder."
+      },
+      "type": "cli",
+      "registry_kind": "cli",
+      "category": {
+        "zh": "功能注释",
+        "en": "Functional Annotation"
+      },
+      "version": "1.0.0",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/kofam_scan-1.0.0/kofam_scan-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/kofam_scan-1.0.0/kofam_scan-1.0.0.zip.sig",
+      "sha256": "5249f2155306c9102081a2727c71721e4e5b88d2e291464eaddc8bb2f582ce33",
+      "changelog": {
+        "zh": "首次发布",
+        "en": "Initial release"
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "primigenius/kofam_scan:1.3.0",
+      "multipart": true,
+      "download_parts": [
+        {
+          "index": 1,
+          "name": "kofam_scan-1.0.0.zip.part001",
+          "size": 524288000,
+          "sha256": "6680cc5d3d4bb7506468cacf5276ddb740599e7a62f8a575252cfd59caaa1272",
+          "url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/kofam_scan-1.0.0/kofam_scan-1.0.0.zip.part001"
+        },
+        {
+          "index": 2,
+          "name": "kofam_scan-1.0.0.zip.part002",
+          "size": 524288000,
+          "sha256": "1b6bc58216e63dcce9c2443a360909e4acbaf32362f18b69e2ffbef860defc8c",
+          "url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/kofam_scan-1.0.0/kofam_scan-1.0.0.zip.part002"
+        },
+        {
+          "index": 3,
+          "name": "kofam_scan-1.0.0.zip.part003",
+          "size": 519952589,
+          "sha256": "89ef74f805b884e5f45dc359e21bcd1c3b196f12ce0a1abc4a0116ee3522d76a",
+          "url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/kofam_scan-1.0.0/kofam_scan-1.0.0.zip.part003"
+        }
   ]
 }
