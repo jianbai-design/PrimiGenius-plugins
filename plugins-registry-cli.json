@@ -1272,6 +1272,37 @@
           "url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/kofam_scan-1.0.0/kofam_scan-1.0.0.zip.part003"
         }
       ]
-    }
+    },
+    {
+      "id": "imagej",
+      "name": {
+        "zh": "ImageJ 图像处理",
+        "en": "ImageJ Image Processing"
+      },
+      "description": {
+        "zh": "使用 ImageJ 进行图像处理和分析。点击运行即可打开 ImageJ 原生界面，支持 TIFF/PNG/JPEG 等多种图像格式。",
+        "en": "Process and analyze images with ImageJ. Click run to launch the native ImageJ GUI. Supports TIFF/PNG/JPEG and other image formats."
+      },
+      "type": "cli",
+      "category": {
+        "zh": "图像处理",
+        "en": "Image Processing"
+      },
+      "version": "1.0.0",
+      "developer_signature": {
+        "tool_name": "ImageJ 图像处理",
+        "developer": "Daoker",
+        "develop_time": "2026-06-20"
+      },
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/imagej-1.0.0/imagej-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/imagej-1.0.0/imagej-1.0.0.zip.sig",
+      "sha256": "95fe29dfed43b2d1c7a77e19521a9f86d1eef04b6336bc0b6622a404da7fe5bb",
+      "changelog": {
+        "zh": "首次发布",
+        "en": "Initial release"
+      },
+      "min_app_version": "1.0.3"
+    } 
   ]
 }
