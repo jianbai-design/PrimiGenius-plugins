@@ -267,6 +267,49 @@
         "svglite"
       ],
       "author": "PrimiGenius"
+    },
+    {
+      "id": "sequence_logo_plotter",
+      "name": {
+        "zh": "序列 Logo 绘制",
+        "en": "Sequence Logo Plotter"
+      },
+      "description": {
+        "zh": "上传 xlsx/txt/csv/tsv 或 fasta 序列文件。表格格式每列为一组序列，fasta 格式所有序列作为一组。支持含 gap(-) 的比对序列。",
+        "en": "Upload xlsx/txt/csv/tsv or FASTA sequence files. Table format uses each column as a group; FASTA treats all sequences as one group. Supports aligned sequences with gap (-)."
+      },
+      "type": "r_panel",
+      "category": {
+        "zh": "高级可视化",
+        "en": "Advanced Visualization"
+      },
+      "version": "1.0.0",
+      "docker_image": "rocker/r-ver:latest",
+      "icon": "fa-font",
+      "icon_color": "#F57C00",
+      "packages": [
+        "ggplot2",
+        "ggseqlogo",
+        "readxl",
+        "data.table",
+        "svglite",
+        "patchwork"
+      ],
+      "author": "PrimiGenius",
+      "developer_signature": {
+        "tool_name": "序列 Logo 绘制",
+        "developer": "Daoker",
+        "develop_time": "2026-04-10"
+      },
+      "registry_kind": "r",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/sequence_logo_plotter-1.0.0/sequence_logo_plotter-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/sequence_logo_plotter-1.0.0/sequence_logo_plotter-1.0.0.zip.sig",
+      "sha256": "08caaa903d037a2f9a8e39966b6a900585a3a9d642b3acdd950815b531df7a3a",
+      "changelog": {
+        "zh": "首次发布",
+        "en": "Initial release"
+      },
+      "min_app_version": "1.0.3"
     }
   ]
 }
