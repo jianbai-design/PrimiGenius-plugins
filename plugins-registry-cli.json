@@ -370,10 +370,10 @@
         "zh": "结构生物学",
         "en": "Structural Biology"
       },
-      "version": "1.0.0",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_plip_interaction-1.0.0/linux_plip_interaction-1.0.0.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_plip_interaction-1.0.0/linux_plip_interaction-1.0.0.zip.sig",
-      "sha256": "16d4f638e69a1bdc090bcbde2a77634ef4c214abae1c0c95a8635a13c9d85082",
+      "version": "1.0.1",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_plip_interaction-1.0.1/linux_plip_interaction-1.0.1.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_plip_interaction-1.0.1/linux_plip_interaction-1.0.1.zip.sig",
+      "sha256": "9cb1d968ede2f6c07c56950f0e317abde5a84b80b750cc0561976207d339e0b3",
       "changelog": {
         "zh": "首次发布",
         "en": "Initial release"
