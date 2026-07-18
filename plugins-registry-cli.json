@@ -1409,7 +1409,7 @@
         "zh": "",
         "en": ""
       },
-      "min_app_version": "1.0.8",
+      "min_app_version": "1.0.3",
       "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
     },
     {
@@ -1544,7 +1544,7 @@
         "zh": "",
         "en": ""
       },
-      "min_app_version": "1.0.3",
+      "min_app_version": "1.0.8",
       "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
     },
     {
