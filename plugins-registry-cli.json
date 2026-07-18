@@ -1314,6 +1314,10 @@
         "zh": "先按 BED 文件的染色体信息智能提取、合并或拆分 Blocks，再为每个输出 Block 生成一份具有对应真实染色体标签的 layout 文件。",
         "en": "First extract, merge, or split Blocks using chromosome information from BED file, then generate a layout file with matching chromosome labels for each output Block."
       },
+      "category": {
+        "zh": "共线性分析",
+        "en": "Collinearity Analysis"
+      },
       "version": "1.0.0",
       "platform": "linux",
       "registry_kind": "cli",
@@ -1336,6 +1340,10 @@
       "description": {
         "zh": "结合 BED 的真实染色体位置按关注基因提取上下游窗口；单个 BED 直接使用，多个 BED 自动合并后处理。",
         "en": "Extract focus-gene windows using real chromosome positions. Use one BED directly or automatically merge multiple BED files before processing."
+      },
+      "category": {
+        "zh": "共线性分析",
+        "en": "Collinearity Analysis"
       },
       "version": "1.0.0",
       "platform": "linux",
@@ -1360,6 +1368,10 @@
         "zh": "使用 jcvi.graphics.synteny 绘制多轨迹共线性 Blocks 局部图。Blocks 与 Layout 按上传顺序循环配对；可上传已合并 BED，或上传多个物种 BED 并自动合并后供每轮绘图使用。",
         "en": "Plot local multi-track synteny Blocks with jcvi.graphics.synteny. Blocks and Layout files are paired in upload order; use merged BED files or automatically merge multiple species BED files for every plot cycle."
       },
+      "category": {
+        "zh": "共线性分析",
+        "en": "Collinearity Analysis"
+      },
       "version": "1.0.0",
       "platform": "linux",
       "registry_kind": "cli",
@@ -1382,6 +1394,10 @@
       "description": {
         "zh": "使用参考物种 BED，从多个 lifted.anchors 中自动选择包含该参考前缀的关系，必要时交换 anchors 两侧后运行 JCVI synteny mcscan；无关 anchors 自动跳过，结果按参考基因 ID 对齐合并。",
         "en": "Use a reference-species BED to select matching relationships from multiple lifted anchors, reverse anchor sides when necessary, run JCVI synteny mcscan, skip unrelated anchors, and merge results by reference gene ID."
+      },
+      "category": {
+        "zh": "共线性分析",
+        "en": "Collinearity Analysis"
       },
       "version": "1.0.0",
       "platform": "linux",
@@ -1406,6 +1422,10 @@
         "zh": "基于 JCVI anchors 和 BED 文件生成共线性 dotplot，并可输出 synteny depth 统计图（默认 PDF）。",
         "en": "Generate a JCVI synteny dotplot from anchors and BED files, with optional synteny depth statistics (default PDF)."
       },
+      "category": {
+        "zh": "共线性分析",
+        "en": "Collinearity Analysis"
+      },
       "version": "1.0.0",
       "platform": "linux",
       "registry_kind": "cli",
@@ -1428,6 +1448,10 @@
       "description": {
         "zh": "基于 JCVI anchors 和 BED 文件生成共线性 dotplot，并可输出 synteny depth 统计图（默认 PDF）。",
         "en": "Generate a JCVI synteny dotplot from anchors and BED files, with optional synteny depth statistics (default PDF)."
+      },
+      "category": {
+        "zh": "共线性分析",
+        "en": "Collinearity Analysis"
       },
       "version": "1.0.0",
       "platform": "linux",
@@ -1452,6 +1476,10 @@
         "zh": "使用已有的 seqids 和 layout 文件，按 JCVI 原生命令绘制 karyotype 图。",
         "en": "Draw a karyotype plot from existing seqids and layout files using the native JCVI command."
       },
+      "category": {
+        "zh": "共线性分析",
+        "en": "Collinearity Analysis"
+      },
       "version": "1.0.0",
       "platform": "linux",
       "registry_kind": "cli",
@@ -1474,6 +1502,10 @@
       "description": {
         "zh": "生成 jcvi.graphics.synteny 或 jcvi.graphics.karyotype 可直接使用的 layout 文件。",
         "en": "Create layout files compatible with jcvi.graphics.synteny or jcvi.graphics.karyotype."
+      },
+      "category": {
+        "zh": "共线性分析",
+        "en": "Collinearity Analysis"
       },
       "version": "1.0.0",
       "platform": "linux",
@@ -1498,6 +1530,10 @@
         "zh": "批量上传多个物种的 BED 与 FASTA，按文件名前缀自动分组并运行 JCVI MCscan 成对共线性分析；默认分析相邻物种组，也可自定义分析策略。",
         "en": "Upload BED and FASTA files for multiple species, group them automatically by filename prefix, and run JCVI MCscan pairwise synteny using adjacent or custom pair strategies."
       },
+      "category": {
+        "zh": "共线性分析",
+        "en": "Collinearity Analysis"
+      },
       "version": "1.0.0",
       "platform": "linux",
       "registry_kind": "cli",
@@ -1520,6 +1556,10 @@
       "description": {
         "zh": "使用 JCVI MCscan 对两个物种流对两个物种进行同源搜索和成对共线性分析，输出 .anchors 与 .anchors.simple。",
         "en": "Run the JCVI MCscan for two species, including homolog search and pairwise synteny detection, producing .anchors and .anchors.simple."
+      },
+      "category": {
+        "zh": "共线性分析",
+        "en": "Collinearity Analysis"
       },
       "version": "1.0.0",
       "platform": "linux",
@@ -1544,6 +1584,10 @@
         "zh": "从 GFF 中提取 bed 文件，并整理 cds 或 pep 序列文件，支持从参考基因组中提取序列 cds 序列；同时处理多个物种时需要 GFF 和序列文件顺序一致。",
         "en": "Extract bed file from GFF, and prepare cds or pep sequence files,support extract cds from reference genome. When processing multiple species, the order of GFF and sequence files must be consistent."
       },
+      "category": {
+        "zh": "共线性分析",
+        "en": "Collinearity Analysis"
+      },
       "version": "1.0.0",
       "platform": "linux",
       "registry_kind": "cli",
@@ -1566,6 +1610,10 @@
       "description": {
         "zh": "根据多物种 BED 和 .simple 文件生成 JCVI 宏共线性绘图所需的 seqids、karyotype layout 及配套输入文件。",
         "en": "Prepare the seqids file, karyotype layout, and staged input files required for JCVI karyotype plots."
+      },
+      "category": {
+        "zh": "共线性分析",
+        "en": "Collinearity Analysis"
       },
       "version": "1.0.0",
       "platform": "linux",
