@@ -1222,7 +1222,7 @@
       },
       "min_app_version": "1.0.3"
     },
-        {
+    {
       "id": "kofam_scan",
       "name": {
         "zh": "KofamScan 功能注释",
@@ -1303,6 +1303,282 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3"
-    } 
+    },
+    {
+      "id": "linux_jcvi_block_layout_creat",
+      "name": {
+        "zh": "5.2-JCVI Block & Layout 准备",
+        "en": "5.2-JCVI Block & Layout Preparation"
+      },
+      "description": {
+        "zh": "先按 BED 文件的染色体信息智能提取、合并或拆分 Blocks，再为每个输出 Block 生成一份具有对应真实染色体标签的 layout 文件。",
+        "en": "First extract, merge, or split Blocks using chromosome information from BED file, then generate a layout file with matching chromosome labels for each output Block."
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_block_layout_creat-1.0.0/linux_jcvi_block_layout_creat-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_block_layout_creat-1.0.0/linux_jcvi_block_layout_creat-1.0.0.zip.sig",
+      "sha256": "25ebae6c2170e6bffff6935e5fc9322a745b4aabad174c9efb16de5f5632e044",
+      "changelog": {
+        "zh": "",
+        "en": ""
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+    },
+    {
+      "id": "linux_jcvi_block_processing",
+      "name": {
+        "zh": "5.x-JCVI Block 处理",
+        "en": "5.x-JCVI Block Processing"
+      },
+      "description": {
+        "zh": "结合 BED 的真实染色体位置按关注基因提取上下游窗口；单个 BED 直接使用，多个 BED 自动合并后处理。",
+        "en": "Extract focus-gene windows using real chromosome positions. Use one BED directly or automatically merge multiple BED files before processing."
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_block_processing-1.0.0/linux_jcvi_block_processing-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_block_processing-1.0.0/linux_jcvi_block_processing-1.0.0.zip.sig",
+      "sha256": "b2311b50f35f25d7f1719442b2afe06960a46f0a4bc45ad44cc9f221a9368387",
+      "changelog": {
+        "zh": "",
+        "en": ""
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+    },
+    {
+      "id": "linux_jcvi_blocks_graphics",
+      "name": {
+        "zh": "6.1-JCVI Blocks 局部绘图",
+        "en": "6.1-JCVI Blocks Synteny Graphics"
+      },
+      "description": {
+        "zh": "使用 jcvi.graphics.synteny 绘制多轨迹共线性 Blocks 局部图。Blocks 与 Layout 按上传顺序循环配对；可上传已合并 BED，或上传多个物种 BED 并自动合并后供每轮绘图使用。",
+        "en": "Plot local multi-track synteny Blocks with jcvi.graphics.synteny. Blocks and Layout files are paired in upload order; use merged BED files or automatically merge multiple species BED files for every plot cycle."
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_blocks_graphics-1.0.0/linux_jcvi_blocks_graphics-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_blocks_graphics-1.0.0/linux_jcvi_blocks_graphics-1.0.0.zip.sig",
+      "sha256": "4197242541609e53f09f445f94d0115eef8a095a820ec301246d7123ceb5d546",
+      "changelog": {
+        "zh": "",
+        "en": ""
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+    },
+    {
+      "id": "linux_jcvi_compara_synteny",
+      "name": {
+        "zh": "4-JCVI 共线性区块构建",
+        "en": "4-JCVI Compara Synteny Block"
+      },
+      "description": {
+        "zh": "使用参考物种 BED，从多个 lifted.anchors 中自动选择包含该参考前缀的关系，必要时交换 anchors 两侧后运行 JCVI synteny mcscan；无关 anchors 自动跳过，结果按参考基因 ID 对齐合并。",
+        "en": "Use a reference-species BED to select matching relationships from multiple lifted anchors, reverse anchor sides when necessary, run JCVI synteny mcscan, skip unrelated anchors, and merge results by reference gene ID."
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_compara_synteny-1.0.0/linux_jcvi_compara_synteny-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_compara_synteny-1.0.0/linux_jcvi_compara_synteny-1.0.0.zip.sig",
+      "sha256": "46e590f3d793af08ad42d4e9849b7da095b717790ea25c06c3bb9969c726db5a",
+      "changelog": {
+        "zh": "",
+        "en": ""
+      },
+      "min_app_version": "1.0.8",
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+    },
+    {
+      "id": "linux_jcvi_dotplot",
+      "name": {
+        "zh": "3-JCVI 点图与深度图",
+        "en": "3-JCVI Dotplot and Depth"
+      },
+      "description": {
+        "zh": "基于 JCVI anchors 和 BED 文件生成共线性 dotplot，并可输出 synteny depth 统计图（默认 PDF）。",
+        "en": "Generate a JCVI synteny dotplot from anchors and BED files, with optional synteny depth statistics (default PDF)."
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_dotplot-1.0.0/linux_jcvi_dotplot-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_dotplot-1.0.0/linux_jcvi_dotplot-1.0.0.zip.sig",
+      "sha256": "79de5ced36d92e1dc2df5982319cd355f1a6870c0b529cc4535a1f59ae442b18",
+      "changelog": {
+        "zh": "",
+        "en": ""
+      },
+      "min_app_version": "1.0.8",
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+    },
+    {
+      "id": "linux_jcvi_dotplot_manual",
+      "name": {
+        "zh": "3-JCVI 点图与深度图（手动）",
+        "en": "3-JCVI Dotplot and Depth (Manual)"
+      },
+      "description": {
+        "zh": "基于 JCVI anchors 和 BED 文件生成共线性 dotplot，并可输出 synteny depth 统计图（默认 PDF）。",
+        "en": "Generate a JCVI synteny dotplot from anchors and BED files, with optional synteny depth statistics (default PDF)."
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_dotplot_manual-1.0.0/linux_jcvi_dotplot_manual-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_dotplot_manual-1.0.0/linux_jcvi_dotplot_manual-1.0.0.zip.sig",
+      "sha256": "8c7d46906a08223ca2dc1fab48ab3ba1d800808d3983e23abb141aa222ae48fe",
+      "changelog": {
+        "zh": "",
+        "en": ""
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+    },
+    {
+      "id": "linux_jcvi_karyotype",
+      "name": {
+        "zh": "6.2-JCVI Karyotype 基因组绘图",
+        "en": "6.2-JCVI Karyotype Plot"
+      },
+      "description": {
+        "zh": "使用已有的 seqids 和 layout 文件，按 JCVI 原生命令绘制 karyotype 图。",
+        "en": "Draw a karyotype plot from existing seqids and layout files using the native JCVI command."
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_karyotype-1.0.0/linux_jcvi_karyotype-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_karyotype-1.0.0/linux_jcvi_karyotype-1.0.0.zip.sig",
+      "sha256": "036124400bfdfc1812a714f5b5cc6efbdb97b252f89b56a4e6a8999f3da3a2c6",
+      "changelog": {
+        "zh": "",
+        "en": ""
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+    },
+    {
+      "id": "linux_jcvi_layout_creat",
+      "name": {
+        "zh": "5.x-JCVI Layout 文件生成",
+        "en": "5.x-JCVI Layout Creat"
+      },
+      "description": {
+        "zh": "生成 jcvi.graphics.synteny 或 jcvi.graphics.karyotype 可直接使用的 layout 文件。",
+        "en": "Create layout files compatible with jcvi.graphics.synteny or jcvi.graphics.karyotype."
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_layout_creat-1.0.0/linux_jcvi_layout_creat-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_layout_creat-1.0.0/linux_jcvi_layout_creat-1.0.0.zip.sig",
+      "sha256": "8c1f469958ccb01d27f30fd3f6744fe47478bac7038951a90c3b4d6ec90b4f87",
+      "changelog": {
+        "zh": "",
+        "en": ""
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+    },
+    {
+      "id": "linux_jcvi_ortholog_synteny",
+      "name": {
+        "zh": "2-JCVI 成对共线性",
+        "en": "2-JCVI Pairwise Synteny"
+      },
+      "description": {
+        "zh": "批量上传多个物种的 BED 与 FASTA，按文件名前缀自动分组并运行 JCVI MCscan 成对共线性分析；默认分析相邻物种组，也可自定义分析策略。",
+        "en": "Upload BED and FASTA files for multiple species, group them automatically by filename prefix, and run JCVI MCscan pairwise synteny using adjacent or custom pair strategies."
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_ortholog_synteny-1.0.0/linux_jcvi_ortholog_synteny-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_ortholog_synteny-1.0.0/linux_jcvi_ortholog_synteny-1.0.0.zip.sig",
+      "sha256": "855c45dca5cce70f8b11d1b3ec8be3a3f3af63568095718bc9f309810d0fad75",
+      "changelog": {
+        "zh": "",
+        "en": ""
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+    },
+    {
+      "id": "linux_jcvi_ortholog_synteny_manual",
+      "name": {
+        "zh": "2-JCVI 成对共线性（手动）",
+        "en": "2-JCVI Pairwise Synteny (Manual)"
+      },
+      "description": {
+        "zh": "使用 JCVI MCscan 对两个物种流对两个物种进行同源搜索和成对共线性分析，输出 .anchors 与 .anchors.simple。",
+        "en": "Run the JCVI MCscan for two species, including homolog search and pairwise synteny detection, producing .anchors and .anchors.simple."
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_ortholog_synteny_manual-1.0.0/linux_jcvi_ortholog_synteny_manual-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_ortholog_synteny_manual-1.0.0/linux_jcvi_ortholog_synteny_manual-1.0.0.zip.sig",
+      "sha256": "c9893b6f623306b002a64d56208608151721d8e0e31545d739fcafe69a875012",
+      "changelog": {
+        "zh": "",
+        "en": ""
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+    },
+    {
+      "id": "linux_jcvi_prepare",
+      "name": {
+        "zh": "1-JCVI 数据准备",
+        "en": "1-JCVI Data Preparation"
+      },
+      "description": {
+        "zh": "从 GFF 中提取 bed 文件，并整理 cds 或 pep 序列文件，支持从参考基因组中提取序列 cds 序列；同时处理多个物种时需要 GFF 和序列文件顺序一致。",
+        "en": "Extract bed file from GFF, and prepare cds or pep sequence files,support extract cds from reference genome. When processing multiple species, the order of GFF and sequence files must be consistent."
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_prepare-1.0.0/linux_jcvi_prepare-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_prepare-1.0.0/linux_jcvi_prepare-1.0.0.zip.sig",
+      "sha256": "6aba0cc38f97a679c38fe9398dd3a369a02c4804d40cc3827cadfae205cb3b8c",
+      "changelog": {
+        "zh": "",
+        "en": ""
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+    },
+    {
+      "id": "linux_jcvi_seqid_layout_creat",
+      "name": {
+        "zh": "5.1-JCVI Seqid & Layout 准备",
+        "en": "5.1-JCVI Seqid & Layout Preparation"
+      },
+      "description": {
+        "zh": "根据多物种 BED 和 .simple 文件生成 JCVI 宏共线性绘图所需的 seqids、karyotype layout 及配套输入文件。",
+        "en": "Prepare the seqids file, karyotype layout, and staged input files required for JCVI karyotype plots."
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_seqid_layout_creat-1.0.0/linux_jcvi_seqid_layout_creat-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_seqid_layout_creat-1.0.0/linux_jcvi_seqid_layout_creat-1.0.0.zip.sig",
+      "sha256": "83548175e73f75801ee0f52fce2a0d30a36cd8284e24cf7ca066328f23396f3f",
+      "changelog": {
+        "zh": "",
+        "en": ""
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+    }
   ]
 }
