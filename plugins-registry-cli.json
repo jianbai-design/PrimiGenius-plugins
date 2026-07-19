@@ -1399,15 +1399,15 @@
         "zh": "共线性分析",
         "en": "Collinearity Analysis"
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "platform": "linux",
       "registry_kind": "cli",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_compara_synteny-1.0.0/linux_jcvi_compara_synteny-1.0.0.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_compara_synteny-1.0.0/linux_jcvi_compara_synteny-1.0.0.zip.sig",
-      "sha256": "46e590f3d793af08ad42d4e9849b7da095b717790ea25c06c3bb9969c726db5a",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_compara_synteny-1.0.1/linux_jcvi_compara_synteny-1.0.1.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_jcvi_compara_synteny-1.0.1/linux_jcvi_compara_synteny-1.0.1.zip.sig",
+      "sha256": "9453a579f3c2c905fb05e2477bf89dcfb5763ba97995fc07aedabde3be966fbc",
       "changelog": {
-        "zh": "",
-        "en": ""
+        "zh": "将 --Nm 参数更名为更准确的 Block 链接端点重叠容差，并补充其不会删除输出端点基因及默认值为 10 的说明。",
+        "en": "Rename --Nm to the more accurate block chaining endpoint overlap tolerance and clarify that it does not remove endpoint genes and defaults to 10."
       },
       "min_app_version": "1.0.3",
       "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
