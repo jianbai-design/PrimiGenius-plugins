@@ -370,13 +370,13 @@
         "zh": "结构生物学",
         "en": "Structural Biology"
       },
-      "version": "1.0.1",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_plip_interaction-1.0.1/linux_plip_interaction-1.0.1.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_plip_interaction-1.0.1/linux_plip_interaction-1.0.1.zip.sig",
-      "sha256": "9cb1d968ede2f6c07c56950f0e317abde5a84b80b750cc0561976207d339e0b3",
+      "version": "1.0.2",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_plip_interaction-1.0.2/linux_plip_interaction-1.0.2.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_plip_interaction-1.0.2/linux_plip_interaction-1.0.2.zip.sig",
+      "sha256": "072e102651a3012961a95c2b6c0ef5472c5e9811dd6fa03aeb113e7a035f19be",
       "changelog": {
-        "zh": "首次发布",
-        "en": "Initial release"
+        "zh": "版本更新至 1.0.2",
+        "en": "Updated to version 1.0.2"
       },
       "min_app_version": "1.0.3",
       "docker_image": "pharmai/plip:latest"
