@@ -1,8 +1,40 @@
 {
   "registry_version": "1.0",
   "registry_kind": "cli",
-  "generated_at": "2026-06-12T08:25:28.458Z",
+  "generated_at": "2026-08-01T06:50:17.311Z",
   "plugins": [
+    {
+      "id": "linux_blast_basic_toolkit",
+      "name": {
+        "zh": "BLAST 基础比对",
+        "en": "BLAST Basic Alignment"
+      },
+      "description": {
+        "zh": "使用内置 NCBI BLAST+ 2.17.0 进行基础序列比对，支持 blastn、blastp、blastx、tblastn、tblastx 和 PSI-BLAST，并可一次搜索导出多种结果格式。",
+        "en": "Run basic sequence alignments with bundled NCBI BLAST+ 2.17.0, supporting blastn, blastp, blastx, tblastn, tblastx, and PSI-BLAST with multiple output formats from one search."
+      },
+      "type": "cli",
+      "registry_kind": "cli",
+      "category": {
+        "zh": "序列比对",
+        "en": "Sequence Alignment"
+      },
+      "version": "1.3.1",
+      "developer_signature": {
+        "tool_name": "BLAST 基础比对",
+        "developer": "Daoker",
+        "develop_time": "2026-04-12"
+      },
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_blast_basic_toolkit-1.3.1/linux_blast_basic_toolkit-1.3.1.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_blast_basic_toolkit-1.3.1/linux_blast_basic_toolkit-1.3.1.zip.sig",
+      "sha256": "47ae34d99c9e3f7efdba8760b1f87802f296269b29d70fd1110d89d41a334ca8",
+      "changelog": {
+        "zh": "首次发布。内置 BLAST+ 2.17.0，支持六种基础比对程序、程序专属参数联动及 outfmt 0/7 默认多格式输出。",
+        "en": "Initial release with bundled BLAST+ 2.17.0, six core search programs, program-specific parameter linkage, and default multi-format outfmt 0/7 export."
+      },
+      "min_app_version": "1.0.9",
+      "docker_image": "primigenius/blast-basic:2.17.0-runtime1"
+    },
     {
       "id": "linux_sra_tools_download",
       "name": {
