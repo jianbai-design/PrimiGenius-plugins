@@ -60,7 +60,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "registry.hub.docker.com/ncbi/sra-tools:latest"
+      "docker_image": "registry.hub.docker.com/ncbi/sra-tools:latest",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "fastqc",
@@ -87,7 +90,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "staphb/fastqc:latest"
+      "docker_image": "staphb/fastqc:latest",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "trim_galore_qc",
@@ -114,7 +120,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "quay.io/biocontainers/trim-galore:0.6.10--hdfd78af_0"
+      "docker_image": "quay.io/biocontainers/trim-galore:0.6.10--hdfd78af_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "trimmomatic",
@@ -141,7 +150,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "eclipse-temurin:8-jre"
+      "docker_image": "eclipse-temurin:8-jre",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "hisat2_build",
@@ -168,7 +180,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "python:3.9-slim"
+      "docker_image": "python:3.9-slim",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "hisat2_align",
@@ -195,7 +210,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "biocontainers/samtools:v1.9-4-deb_cv1"
+      "docker_image": "biocontainers/samtools:v1.9-4-deb_cv1",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "bowtie2_build",
@@ -222,7 +240,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "biocontainers/samtools:v1.9-4-deb_cv1"
+      "docker_image": "biocontainers/samtools:v1.9-4-deb_cv1",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "bowtie2_align",
@@ -249,7 +270,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "biocontainers/samtools:v1.9-4-deb_cv1"
+      "docker_image": "biocontainers/samtools:v1.9-4-deb_cv1",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "stringtie_assemble",
@@ -276,7 +300,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "biocontainers/samtools:v1.9-4-deb_cv1"
+      "docker_image": "biocontainers/samtools:v1.9-4-deb_cv1",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "stringtie_quant",
@@ -303,7 +330,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "biocontainers/samtools:v1.9-4-deb_cv1"
+      "docker_image": "biocontainers/samtools:v1.9-4-deb_cv1",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "feature_counts",
@@ -330,7 +360,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "biocontainers/samtools:v1.9-4-deb_cv1"
+      "docker_image": "biocontainers/samtools:v1.9-4-deb_cv1",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "vina_matrix",
@@ -357,7 +390,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "ubuntu:22.04"
+      "docker_image": "ubuntu:22.04",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "vina_split",
@@ -384,7 +420,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "ubuntu:22.04"
+      "docker_image": "ubuntu:22.04",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_plip_interaction",
@@ -411,7 +450,10 @@
         "en": "Updated to version 1.0.2"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "pharmai/plip:latest"
+      "docker_image": "pharmai/plip:latest",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "hole2_analysis",
@@ -438,7 +480,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "ubuntu:22.04"
+      "docker_image": "ubuntu:22.04",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_interproscan",
@@ -496,7 +541,10 @@
           "sha256": "c055ee6121c48097e179bf6bff7e2f7d5483c93b783fca365cffc339f202d443",
           "url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_interproscan-1.0.0/linux_interproscan-1.0.0.zip.part004"
         }
-      ]
+      ],
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_eggnog_mapper",
@@ -988,7 +1036,10 @@
           "sha256": "263b8468d780672a00c6beeb8c9ecb475b56ac7851e9ed9db9ae0c25f09e178c",
           "url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_eggnog_mapper-1.0.0/linux_eggnog_mapper-1.0.0.zip.part066"
         }
-      ]
+      ],
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "jalview",
@@ -1014,7 +1065,10 @@
         "zh": "首次发布",
         "en": "Initial release"
       },
-      "min_app_version": "1.0.3"
+      "min_app_version": "1.0.3",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "figtree",
@@ -1040,7 +1094,10 @@
         "zh": "首次发布",
         "en": "Initial release"
       },
-      "min_app_version": "1.0.3"
+      "min_app_version": "1.0.3",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "peartree",
@@ -1066,7 +1123,10 @@
         "zh": "首次发布",
         "en": "Initial release"
       },
-      "min_app_version": "1.0.3"
+      "min_app_version": "1.0.3",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "mafft_align",
@@ -1093,7 +1153,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "quay.io/biocontainers/mafft:7.525--h031d066_0"
+      "docker_image": "quay.io/biocontainers/mafft:7.525--h031d066_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "muscle_align",
@@ -1120,7 +1183,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "ubuntu:22.04"
+      "docker_image": "ubuntu:22.04",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "trimal_trim",
@@ -1147,7 +1213,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "staphb/trimal:latest"
+      "docker_image": "staphb/trimal:latest",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "iqtree_phylo",
@@ -1174,7 +1243,10 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3",
-      "docker_image": "staphb/iqtree2:latest"
+      "docker_image": "staphb/iqtree2:latest",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "MSA_View",
@@ -1200,7 +1272,10 @@
         "zh": "首次发布",
         "en": "Initial release"
       },
-      "min_app_version": "1.0.3"
+      "min_app_version": "1.0.3",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "BIGfile_View",
@@ -1226,7 +1301,10 @@
         "zh": "首次发布",
         "en": "Initial release"
       },
-      "min_app_version": "1.0.3"
+      "min_app_version": "1.0.3",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "MSA_BIGfile_View",
@@ -1252,7 +1330,10 @@
         "zh": "首次发布",
         "en": "Initial release"
       },
-      "min_app_version": "1.0.3"
+      "min_app_version": "1.0.3",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "kofam_scan",
@@ -1303,7 +1384,10 @@
           "sha256": "89ef74f805b884e5f45dc359e21bcd1c3b196f12ce0a1abc4a0116ee3522d76a",
           "url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/kofam_scan-1.0.0/kofam_scan-1.0.0.zip.part003"
         }
-      ]
+      ],
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "imagej",
@@ -1361,7 +1445,10 @@
         "en": ""
       },
       "min_app_version": "1.0.3",
-      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_jcvi_block_processing",
@@ -1388,7 +1475,10 @@
         "en": ""
       },
       "min_app_version": "1.0.3",
-      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_jcvi_blocks_graphics",
@@ -1415,7 +1505,10 @@
         "en": ""
       },
       "min_app_version": "1.0.3",
-      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_jcvi_compara_synteny",
@@ -1442,7 +1535,10 @@
         "en": "Rename --Nm to the more accurate block chaining endpoint overlap tolerance and clarify that it does not remove endpoint genes and defaults to 10."
       },
       "min_app_version": "1.0.3",
-      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_jcvi_dotplot",
@@ -1469,7 +1565,10 @@
         "en": ""
       },
       "min_app_version": "1.0.8",
-      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_jcvi_dotplot_manual",
@@ -1496,7 +1595,10 @@
         "en": ""
       },
       "min_app_version": "1.0.3",
-      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_jcvi_karyotype",
@@ -1523,7 +1625,10 @@
         "en": ""
       },
       "min_app_version": "1.0.3",
-      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_jcvi_layout_creat",
@@ -1550,7 +1655,10 @@
         "en": ""
       },
       "min_app_version": "1.0.3",
-      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_jcvi_ortholog_synteny",
@@ -1577,7 +1685,10 @@
         "en": ""
       },
       "min_app_version": "1.0.8",
-      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_jcvi_ortholog_synteny_manual",
@@ -1604,7 +1715,10 @@
         "en": ""
       },
       "min_app_version": "1.0.3",
-      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_jcvi_prepare",
@@ -1631,7 +1745,10 @@
         "en": ""
       },
       "min_app_version": "1.0.3",
-      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "linux_jcvi_seqid_layout_creat",
@@ -1658,7 +1775,10 @@
         "en": ""
       },
       "min_app_version": "1.0.3",
-      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0"
+      "docker_image": "quay.io/biocontainers/jcvi:1.5.6--py39hff726c5_0",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     }
   ]
 }
