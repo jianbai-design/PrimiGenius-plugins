@@ -38,7 +38,10 @@
         "ggrepel",
         "svglite"
       ],
-      "author": "PrimiGenius"
+      "author": "PrimiGenius",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "upsetplot",
@@ -79,7 +82,10 @@
         "svglite",
         "circlize"
       ],
-      "author": "PrimiGenius"
+      "author": "PrimiGenius",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "r_venn_advanced",
@@ -119,7 +125,10 @@
         "RColorBrewer",
         "eulerr"
       ],
-      "author": "PrimiGenius"
+      "author": "PrimiGenius",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "deseq2_tool",
@@ -156,7 +165,10 @@
         "pheatmap",
         "RColorBrewer",
         "ggrepel"
-      ]
+      ],
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "dimension_reduction",
@@ -194,7 +206,10 @@
         "scatterplot3d",
         "umap"
       ],
-      "author": "PrimiGenius"
+      "author": "PrimiGenius",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "heatmap",
@@ -229,7 +244,10 @@
         "RColorBrewer",
         "circlize",
         "dendextend"
-      ]
+      ],
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "deg_rank_plot",
@@ -266,7 +284,10 @@
         "data.table",
         "svglite"
       ],
-      "author": "PrimiGenius"
+      "author": "PrimiGenius",
+      "developer_signature": {
+        "developer": "Daoker"
+      }
     },
     {
       "id": "sequence_logo_plotter",
