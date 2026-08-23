@@ -1,7 +1,7 @@
 {
   "registry_version": "1.0",
   "registry_kind": "r",
-  "generated_at": "2026-06-21T15:10:53.907Z",
+  "generated_at": "2026-08-23T09:41:08.483Z",
   "plugins": [
     {
       "id": "volcano_panel",
@@ -331,6 +331,50 @@
         "en": "Initial release"
       },
       "min_app_version": "1.0.3"
+    },
+    {
+      "id": "go_kegg_enrichment",
+      "name": {
+        "zh": "GO/KEGG 富集分析",
+        "en": "GO/KEGG Enrichment"
+      },
+      "description": {
+        "zh": "基于超几何分布的 GO/KEGG 富集分析，支持物种特异 KEGG、非模式物种 KO 注释、自定义基因集与离线缓存",
+        "en": "GO/KEGG enrichment with organism-specific KEGG, KO annotations for non-model organisms, custom gene sets, and offline caching"
+      },
+      "type": "R_panel",
+      "registry_kind": "r",
+      "category": {
+        "en": "Enrichment Analysis",
+        "zh": "富集分析"
+      },
+      "version": "1.0.0",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.0/go_kegg_enrichment-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.0/go_kegg_enrichment-1.0.0.zip.sig",
+      "sha256": "8c79673510d9319089a801f5bc66f07bef9d2fd865b9649132198cc88e953fb8",
+      "changelog": {
+        "zh": "首次发布",
+        "en": "Initial release"
+      },
+      "min_app_version": "1.0.3",
+      "icon": "fa-flask",
+      "icon_color": "#1565C0",
+      "docker_image": "rocker/r-ver:latest",
+      "packages": [
+        "BiocManager",
+        "clusterProfiler",
+        "ggplot2",
+        "svglite",
+        "dplyr",
+        "stringr",
+        "jsonlite"
+      ],
+      "author": "PrimiGenius",
+      "developer_signature": {
+        "tool_name": "GO/KEGG 富集分析",
+        "developer": "Daoker",
+        "develop_time": "2026-06-01"
+      }
     }
   ]
 }
