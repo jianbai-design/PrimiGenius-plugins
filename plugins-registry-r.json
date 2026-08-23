@@ -1,7 +1,7 @@
 {
   "registry_version": "1.0",
   "registry_kind": "r",
-  "generated_at": "2026-08-23T09:41:08.483Z",
+  "generated_at": "2026-08-23T09:45:17.699Z",
   "plugins": [
     {
       "id": "volcano_panel",
@@ -351,7 +351,7 @@
       "version": "1.0.0",
       "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.0/go_kegg_enrichment-1.0.0.zip",
       "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.0/go_kegg_enrichment-1.0.0.zip.sig",
-      "sha256": "8c79673510d9319089a801f5bc66f07bef9d2fd865b9649132198cc88e953fb8",
+      "sha256": "8dd55fd7cdccc83de34410c26048cafa51498054d8c633db0a94bfa5f2ea82f1",
       "changelog": {
         "zh": "首次发布",
         "en": "Initial release"
