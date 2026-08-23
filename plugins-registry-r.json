@@ -351,18 +351,16 @@
       "version": "1.0.0",
       "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.0/go_kegg_enrichment-1.0.0.zip",
       "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.0/go_kegg_enrichment-1.0.0.zip.sig",
-      "sha256": "8dd55fd7cdccc83de34410c26048cafa51498054d8c633db0a94bfa5f2ea82f1",
+      "sha256": "859c818430468271174b7f20135efa31cb16ef768c0babdc7090050a4cf0a750",
       "changelog": {
-        "zh": "首次发布",
-        "en": "Initial release"
+        "zh": "重新打包并包含两套离线背景注释；物种特异 KEGG 富集改为 KEGG REST 与本地超几何检验，不再依赖 clusterProfiler",
+        "en": "Repacked with both offline annotation backends; organism-specific KEGG enrichment now uses KEGG REST and local hypergeometric testing without clusterProfiler"
       },
       "min_app_version": "1.0.3",
       "icon": "fa-flask",
       "icon_color": "#1565C0",
       "docker_image": "rocker/r-ver:latest",
       "packages": [
-        "BiocManager",
-        "clusterProfiler",
         "ggplot2",
         "svglite",
         "dplyr",
