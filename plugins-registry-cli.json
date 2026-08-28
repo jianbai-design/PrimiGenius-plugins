@@ -1,7 +1,7 @@
 {
   "registry_version": "1.0",
   "registry_kind": "cli",
-  "generated_at": "2026-08-01T07:09:02.118Z",
+  "generated_at": "2026-08-28T11:56:03.434Z",
   "plugins": [
     {
       "id": "linux_blast_basic_toolkit",
@@ -1779,6 +1779,38 @@
       "developer_signature": {
         "developer": "Daoker"
       }
+    },
+    {
+      "id": "linux_diamond_alignment",
+      "name": {
+        "zh": "DIAMOND 序列比对与蛋白功能注释",
+        "en": "DIAMOND Sequence Alignment with Protein Annotation"
+      },
+      "description": {
+        "zh": "使用 DIAMOND 进行高速蛋白同源比对，支持用户蛋白 FASTA 和 UniProtKB/Swiss-Prot 下载建库与蛋白功能注释。Swiss-Prot 数据来自 UniProt，内容采用 CC BY 4.0 许可；使用相关结果时请引用 UniProt Consortium。",
+        "en": "Run fast protein homology searches with DIAMOND using a user protein FASTA or a downloaded UniProtKB/Swiss-Prot database with optional protein annotations. Swiss-Prot data are provided by UniProt under CC BY 4.0; please cite the UniProt Consortium when using related results."
+      },
+      "type": "cli",
+      "registry_kind": "cli",
+      "category": {
+        "zh": "序列比对",
+        "en": "Sequence Alignment"
+      },
+      "version": "1.0.0",
+      "developer_signature": {
+        "tool_name": "DIAMOND 序列比对与蛋白功能注释",
+        "developer": "Daoker",
+        "develop_time": "2026-08-28"
+      },
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_diamond_alignment-1.0.0/linux_diamond_alignment-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_diamond_alignment-1.0.0/linux_diamond_alignment-1.0.0.zip.sig",
+      "sha256": "d68866cfe0d933e198c45aaa8553f36d4aba909d6ad4d33346da8da412051c00",
+      "changelog": {
+        "zh": "首次发布。支持 DIAMOND blastp/blastx、用户 FASTA 或 Swiss-Prot 下载建库、outfmt 0/6、可选 UniProt 蛋白功能注释，以及工作流文件/粘贴输入。",
+        "en": "Initial release with DIAMOND blastp/blastx, user FASTA or downloaded Swiss-Prot databases, outfmt 0/6, optional UniProt protein annotations, and workflow file/paste inputs."
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "docker.io/buchfink/diamond:version2.2.5"
     }
   ]
 }
