@@ -1811,6 +1811,38 @@
       },
       "min_app_version": "1.0.3",
       "docker_image": "docker.io/buchfink/diamond:version2.2.5"
+    },
+    {
+      "id": "FastTree",
+      "name": {
+        "zh": "FastTree 进化树构建",
+        "en": "FastTree Phylogenetic Tree"
+      },
+      "description": {
+        "zh": "FastTree 2.2 从已经完成的核酸或蛋白质多序列比对构建近似最大似然无根树，并输出局部支持值，适合大规模数据的快速探索。",
+        "en": "FastTree 2.2 infers approximately-maximum-likelihood unrooted trees from pre-aligned nucleotide or protein sequences and reports local support, It is intended for rapid large-scale analysis."
+      },
+      "type": "cli",
+      "registry_kind": "cli",
+      "category": {
+        "zh": "进化分析",
+        "en": "Evolutionary Analysis"
+      },
+      "version": "1.0.0",
+      "developer_signature": {
+        "tool_name": "FastTree",
+        "developer": "Daoker",
+        "develop_time": "2026-08-29"
+      },
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/FastTree-1.0.0/FastTree-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/FastTree-1.0.0/FastTree-1.0.0.zip.sig",
+      "sha256": "981fc5dd7449ea52fca8e485b7d3b6ae704981b2d950641f540af52a4f641941",
+      "changelog": {
+        "zh": "首次发布。支持蛋白质和核酸 FASTA/PHYLIP 比对、常用进化模型、SH-like 局部支持、Gamma 校正及可重复随机种子。",
+        "en": "Initial release with protein and nucleotide FASTA/PHYLIP alignments, common evolutionary models, SH-like local support, Gamma correction, and reproducible random seeds."
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/fasttree:2.2.0--h7b50bb2_1"
     }
   ]
 }
