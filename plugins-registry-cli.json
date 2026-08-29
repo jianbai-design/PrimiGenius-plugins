@@ -1843,6 +1843,38 @@
       },
       "min_app_version": "1.0.3",
       "docker_image": "quay.io/biocontainers/fasttree:2.2.0--h7b50bb2_1"
+    },
+    {
+      "id": "clustalw_align",
+      "name": {
+        "zh": "ClustalW 多序列比对",
+        "en": "ClustalW Multiple Alignment"
+      },
+      "description": {
+        "zh": "经典 ClustalW2 多序列比对工具，支持引导树构建、NJ/UPGMA 聚类和可选迭代优化，适用于蛋白质和核酸序列比对。",
+        "en": "Classic ClustalW2 multiple sequence alignment with guide tree construction and optional iterative refinement."
+      },
+      "type": "cli",
+      "registry_kind": "cli",
+      "category": {
+        "zh": "进化分析",
+        "en": "Evolutionary Analysis"
+      },
+      "version": "1.0.0",
+      "developer_signature": {
+        "tool_name": "ClustalW 多序列比对",
+        "developer": "Daoker",
+        "develop_time": "2026-06-04"
+      },
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/clustalw_align-1.0.0/clustalw_align-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/clustalw_align-1.0.0/clustalw_align-1.0.0.zip.sig",
+      "sha256": "2f813dfeba4b7361b6a78bb3f59c8944b9c8813a20621be7fca2603745ba6c28",
+      "changelog": {
+        "zh": "首次发布。支持蛋白质和核酸序列、七种官方输出格式、NJ/UPGMA 引导树、官方或自定义替换矩阵、可选迭代优化及输入顺序控制。",
+        "en": "Initial release with protein and nucleotide sequences, all seven official output formats, NJ/UPGMA guide trees, built-in or custom substitution matrices, optional iterative refinement, and output-order control."
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/clustalw:2.1--h9948957_12"
     }
   ]
 }
