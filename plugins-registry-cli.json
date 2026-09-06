@@ -1875,6 +1875,38 @@
       },
       "min_app_version": "1.0.3",
       "docker_image": "quay.io/biocontainers/clustalw:2.1--h9948957_12"
+    },
+    {
+      "id": "kallisto_quant",
+      "name": {
+        "zh": "Kallisto 伪比对定量",
+        "en": "Kallisto Pseudoalignment"
+      },
+      "description": {
+        "zh": "基于 k-mer 伪比对的快速转录本定量工具，支持索引构建、批量 PE/SE 定量以及 TPM 和估计计数矩阵合并。",
+        "en": "Fast k-mer pseudoalignment for transcript quantification, with index building, batched PE/SE quantification, and merged TPM and estimated-count matrices."
+      },
+      "type": "cli",
+      "registry_kind": "cli",
+      "category": {
+        "zh": "转录组 2",
+        "en": "Transcriptomics 2"
+      },
+      "version": "1.0.0",
+      "developer_signature": {
+        "tool_name": "Kallisto 伪比对定量",
+        "developer": "Daoker",
+        "develop_time": "2026-04-06"
+      },
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/kallisto_quant-1.0.0/kallisto_quant-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/kallisto_quant-1.0.0/kallisto_quant-1.0.0.zip.sig",
+      "sha256": "9cddcaafdfb6197ff5d82310b119479e6adc9564628e732d077caa2e294bdb1a",
+      "changelog": {
+        "zh": "首次发布。固定 Kallisto 0.52.0，支持索引构建、批量双端或单端定量、链特异性、Bootstrap、纯文本输出及估计计数/TPM 矩阵合并。",
+        "en": "Initial release pinned to Kallisto 0.52.0, with index building, batched paired- or single-end quantification, strandedness, bootstrap, plaintext output, and merged estimated-count/TPM matrices."
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/kallisto:0.52.0--h13ff97a_0"
     }
   ]
 }
