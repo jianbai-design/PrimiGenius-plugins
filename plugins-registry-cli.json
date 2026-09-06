@@ -1889,8 +1889,8 @@
       "type": "cli",
       "registry_kind": "cli",
       "category": {
-        "zh": "转录组 2",
-        "en": "Transcriptomics 2"
+        "zh": "转录组分析",
+        "en": "Transcriptomics"
       },
       "version": "1.0.0",
       "developer_signature": {
@@ -1900,7 +1900,7 @@
       },
       "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/kallisto_quant-1.0.0/kallisto_quant-1.0.0.zip",
       "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/kallisto_quant-1.0.0/kallisto_quant-1.0.0.zip.sig",
-      "sha256": "9cddcaafdfb6197ff5d82310b119479e6adc9564628e732d077caa2e294bdb1a",
+      "sha256": "2e8bf2e0b007a68eccfbfc1ba67dc4bbda292a220d20781c11507692d70f72ca",
       "changelog": {
         "zh": "首次发布。固定 Kallisto 0.52.0，支持索引构建、批量双端或单端定量、链特异性、Bootstrap、纯文本输出及估计计数/TPM 矩阵合并。",
         "en": "Initial release pinned to Kallisto 0.52.0, with index building, batched paired- or single-end quantification, strandedness, bootstrap, plaintext output, and merged estimated-count/TPM matrices."
