@@ -441,13 +441,13 @@
         "zh": "结构生物学",
         "en": "Structural Biology"
       },
-      "version": "1.0.2",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_plip_interaction-1.0.2/linux_plip_interaction-1.0.2.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_plip_interaction-1.0.2/linux_plip_interaction-1.0.2.zip.sig",
-      "sha256": "072e102651a3012961a95c2b6c0ef5472c5e9811dd6fa03aeb113e7a035f19be",
+      "version": "1.0.3",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_plip_interaction-1.0.3/linux_plip_interaction-1.0.3.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_plip_interaction-1.0.3/linux_plip_interaction-1.0.3.zip.sig",
+      "sha256": "e08f30c2fdcd15d9ec53c339636c131ea986bb25532f960bfb1a3271e3c31f9f",
       "changelog": {
-        "zh": "版本更新至 1.0.2",
-        "en": "Updated to version 1.0.2"
+        "zh": "修复输入文件或输出路径含空格、特殊字符时 PLIP 参数被错误拆分的问题。",
+        "en": "Fix incorrectly split PLIP arguments when input or output paths contain spaces or special characters."
       },
       "min_app_version": "1.0.3",
       "docker_image": "pharmai/plip:latest",
