@@ -1,7 +1,7 @@
 {
   "registry_version": "1.0",
   "registry_kind": "cli",
-  "generated_at": "2026-08-28T11:56:03.434Z",
+  "generated_at": "2026-09-12T10:00:00.952Z",
   "plugins": [
     {
       "id": "linux_blast_basic_toolkit",
@@ -1907,6 +1907,134 @@
       },
       "min_app_version": "1.0.3",
       "docker_image": "quay.io/biocontainers/kallisto:0.52.0--h13ff97a_0"
+    },
+    {
+      "id": "fimo",
+      "name": {
+        "zh": "FIMO motif 位点扫描",
+        "en": "FIMO Motif Site Scan"
+      },
+      "description": {
+        "zh": "在 DNA、RNA 或蛋白 FASTA 中扫描 motif；支持已有 MEME、多个实例序列（sites2meme）和 consensus/IUPAC（iupac2meme），序列与 motif 字母表须一致。",
+        "en": "Scan motifs in DNA, RNA or protein FASTA; accepts existing MEME motifs, multiple site instances (sites2meme), or consensus/IUPAC motifs (iupac2meme), with matching alphabets."
+      },
+      "category": {
+        "zh": "MEMEsuite-motif分析",
+        "en": "MEMEsuite-motif Analysis"
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/fimo-1.0.0/fimo-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/fimo-1.0.0/fimo-1.0.0.zip.sig",
+      "sha256": "c46cfa21044b2b3df8142821221092e090bd722ed8256fc55c7a9b1d6fe7fc83",
+      "changelog": {
+        "zh": "首次发布。支持 MEME、多个实例序列和单条 consensus/IUPAC motif，以及文件上传或粘贴输入。",
+        "en": "Initial release with MEME, multiple-site, and single consensus/IUPAC motifs plus file or pasted inputs."
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/meme:5.5.9--pl5321he99cc7f_1",
+      "developer_signature": {
+        "tool_name": "FIMO Motif Site Scan",
+        "developer": "Daoker",
+        "develop_time": "2026-09-08"
+      }
+    },
+    {
+      "id": "mast",
+      "name": {
+        "zh": "MAST motif 扫描",
+        "en": "MAST Motif Scan"
+      },
+      "description": {
+        "zh": "根据一组 motif 的组合匹配显著性筛选 FASTA 序列；支持已有 MEME、多个实例序列（sites2meme）和 consensus/IUPAC（iupac2meme）。",
+        "en": "Rank FASTA sequences by the combined significance of a motif set; accepts existing MEME motifs, multiple site instances (sites2meme), or consensus/IUPAC motifs (iupac2meme)."
+      },
+      "category": {
+        "zh": "MEMEsuite-motif分析",
+        "en": "MEMEsuite-motif Analysis"
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/mast-1.0.0/mast-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/mast-1.0.0/mast-1.0.0.zip.sig",
+      "sha256": "d65006a0e25f4a8218673b0550a0e9a8b357d34754b1c75a238d9cefc8c7c470",
+      "changelog": {
+        "zh": "首次发布。支持 MEME、多个实例序列和单条 consensus/IUPAC motif，以及文件上传或粘贴输入。",
+        "en": "Initial release with MEME, multiple-site, and single consensus/IUPAC motifs plus file or pasted inputs."
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/meme:5.5.9--pl5321he99cc7f_1",
+      "developer_signature": {
+        "tool_name": "MAST Motif Set Sequence Search",
+        "developer": "Daoker",
+        "develop_time": "2026-09-08"
+      }
+    },
+    {
+      "id": "streme",
+      "name": {
+        "zh": "STREME motif 发现",
+        "en": "STREME Motif Discovery"
+      },
+      "description": {
+        "zh": "发现富集的 DNA、RNA 或蛋白 motif；未提供对照时由 STREME 打乱主序列生成对照。",
+        "en": "Discover enriched DNA, RNA or protein motifs; STREME shuffles primary sequences for controls when none are supplied."
+      },
+      "category": {
+        "zh": "MEMEsuite-motif分析",
+        "en": "MEMEsuite-motif Analysis"
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/streme-1.0.0/streme-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/streme-1.0.0/streme-1.0.0.zip.sig",
+      "sha256": "85e5cb9926284665049d02ccbc731942df20922ceb7d56f2a3522d069763e57f",
+      "changelog": {
+        "zh": "首次发布。主序列与可选对照序列均支持 FASTA 文件或粘贴输入。",
+        "en": "Initial release with FASTA file or pasted input for both primary and optional control sequences."
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/meme:5.5.9--pl5321he99cc7f_1",
+      "developer_signature": {
+        "tool_name": "STREME De Novo Motif Discovery",
+        "developer": "Daoker",
+        "develop_time": "2026-09-08"
+      }
+    },
+    {
+      "id": "meme",
+      "name": {
+        "zh": "MEME motif 发现",
+        "en": "MEME Motif Discovery"
+      },
+      "description": {
+        "zh": "使用经典 MEME 模型发现 DNA、RNA 或蛋白 motif，保留官方默认位点分布和链方向。",
+        "en": "Discover DNA, RNA or protein motifs with classic MEME using native site-distribution and strand defaults."
+      },
+      "category": {
+        "zh": "MEMEsuite-motif分析",
+        "en": "MEMEsuite-motif Analysis"
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/meme-1.0.0/meme-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/meme-1.0.0/meme-1.0.0.zip.sig",
+      "sha256": "020d671c00759406cc2492787d89d7d3fa0dd1d3f07ec3ddab33deb9f7b80312",
+      "changelog": {
+        "zh": "首次发布。输入 FASTA 支持文件上传或粘贴输入，输出保持 MEME 5.5.9 原生格式。",
+        "en": "Initial release with uploaded or pasted FASTA input and native MEME 5.5.9 outputs."
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/meme:5.5.9--pl5321he99cc7f_1",
+      "developer_signature": {
+        "tool_name": "MEME De Novo Motif Discovery",
+        "developer": "Daoker",
+        "develop_time": "2026-09-08"
+      }
     }
   ]
 }
