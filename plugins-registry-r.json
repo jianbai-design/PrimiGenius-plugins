@@ -348,13 +348,13 @@
         "en": "Enrichment Analysis",
         "zh": "富集分析"
       },
-      "version": "1.0.0",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.0/go_kegg_enrichment-1.0.0.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.0/go_kegg_enrichment-1.0.0.zip.sig",
-      "sha256": "859c818430468271174b7f20135efa31cb16ef768c0babdc7090050a4cf0a750",
+      "version": "1.0.1",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.1/go_kegg_enrichment-1.0.1.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.1/go_kegg_enrichment-1.0.1.zip.sig",
+      "sha256": "fbef4d1839f722ee69fbe4da11af4112909fdafa98977dfcfade16c5c70b85a3",
       "changelog": {
-        "zh": "重新打包并包含两套离线背景注释；物种特异 KEGG 富集改为 KEGG REST 与本地超几何检验，不再依赖 clusterProfiler",
-        "en": "Repacked with both offline annotation backends; organism-specific KEGG enrichment now uses KEGG REST and local hypergeometric testing without clusterProfiler"
+        "zh": "新增本地或强制更新 GO OBO 的持久缓存与解析复用；增加分阶段进度日志；使用内存索引加速有效基因集输出",
+        "en": "Added persistent parsed GO OBO caching with local or forced-refresh modes, detailed progress logs, and indexed in-memory generation of effective gene-set output"
       },
       "min_app_version": "1.0.3",
       "icon": "fa-flask",
