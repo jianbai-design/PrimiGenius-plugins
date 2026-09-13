@@ -348,10 +348,10 @@
         "en": "Enrichment Analysis",
         "zh": "富集分析"
       },
-      "version": "1.0.1",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.1/go_kegg_enrichment-1.0.1.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.1/go_kegg_enrichment-1.0.1.zip.sig",
-      "sha256": "e2747bf41bb2eabb23d4e2c03a5b0514a107b606c726ce42f3263a0d726d3bde",
+      "version": "1.0.2",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.2/go_kegg_enrichment-1.0.2.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.2/go_kegg_enrichment-1.0.2.zip.sig",
+      "sha256": "0f7a479e78c88d30a527245e80b0c6100adbef8e0a1d63bccd721a446e6e2959",
       "changelog": {
         "zh": "新增本地或强制更新 GO OBO 的持久缓存与解析复用；增加分阶段进度日志；使用内存索引加速有效基因集输出；OBO 来源与上传框调整为等宽布局",
         "en": "Added persistent parsed GO OBO caching with local or forced-refresh modes, detailed progress logs, indexed in-memory generation of effective gene-set output, and an equal-width OBO source/upload layout"
