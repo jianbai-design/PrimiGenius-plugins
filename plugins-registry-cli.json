@@ -2035,6 +2035,70 @@
         "developer": "Daoker",
         "develop_time": "2026-09-08"
       }
+    },
+    {
+      "id": "bwa_mem_align",
+      "name": {
+        "zh": "BWA-MEM2 序列比对",
+        "en": "BWA-MEM2 Alignment"
+      },
+      "description": {
+        "zh": "使用 BWA-MEM2 将 DNA 短读段比对到参考基因组，并使用 Samtools 完成排序和索引；可选择是否执行 samtools markdup 重复标记。命令启用 pipefail 和非空 BAM 检查，避免 BWA 启动失败时继续生成空 BAM。",
+        "en": "Align DNA short reads with BWA-MEM2, then sort and index with Samtools; duplicate marking with samtools markdup is optional. The command uses pipefail and a non-empty BAM check to avoid producing empty BAMs when BWA fails to start."
+      },
+      "category": {
+        "zh": "序列比对",
+        "en": "Sequence Alignment"
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/bwa_mem_align-1.0.0/bwa_mem_align-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/bwa_mem_align-1.0.0/bwa_mem_align-1.0.0.zip.sig",
+      "sha256": "f88a297812c2f4d65d0b510b19617c7e1991a5d52e0574d44afa54b8c6399d46",
+      "changelog": {
+        "zh": "首次发布。支持单端和双端 DNA 短读段比对、读组信息、Samtools 排序与索引，以及可选重复标记。",
+        "en": "Initial release with single- and paired-end DNA short-read alignment, read groups, Samtools sorting and indexing, and optional duplicate marking."
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/samtools:1.24--h9dcdb79_1",
+      "developer_signature": {
+        "tool_name": "BWA-MEM2 序列比对",
+        "developer": "Daoker",
+        "develop_time": "2026-04-06"
+      }
+    },
+    {
+      "id": "bwa_mem_build",
+      "name": {
+        "zh": "BWA-MEM2 建立索引",
+        "en": "BWA-MEM2 Index Build"
+      },
+      "description": {
+        "zh": "为参考基因组建立 BWA-MEM2 索引文件，便于后续 DNA 短读段比对（WGS/WES/ChIP-seq 等）。索引阶段峰值内存可能约为参考序列大小的 28 倍，请预留充足内存。",
+        "en": "Build BWA-MEM2 index files from a reference genome for downstream DNA short-read alignment (WGS/WES/ChIP-seq). Peak memory during indexing may reach about 28 times the reference size; ensure sufficient memory is available."
+      },
+      "category": {
+        "zh": "序列比对",
+        "en": "Sequence Alignment"
+      },
+      "version": "1.0.0",
+      "platform": "linux",
+      "registry_kind": "cli",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/bwa_mem_build-1.0.0/bwa_mem_build-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/bwa_mem_build-1.0.0/bwa_mem_build-1.0.0.zip.sig",
+      "sha256": "18a8f3d689cca208d8e7458bdbe3cabb8c37a842d232c32783b7fdd66c78baa4",
+      "changelog": {
+        "zh": "首次发布。支持安全索引前缀、完整索引校验、已有结果保护和失败清理。",
+        "en": "Initial release with validated index prefixes, complete-index checks, existing-output protection, and failure cleanup."
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "quay.io/biocontainers/samtools:1.24--h9dcdb79_1",
+      "developer_signature": {
+        "tool_name": "BWA-MEM2 建立索引",
+        "developer": "Daoker",
+        "develop_time": "2026-04-06"
+      }
     }
   ]
 }
