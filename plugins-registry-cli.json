@@ -2050,21 +2050,21 @@
         "zh": "序列比对",
         "en": "Sequence Alignment"
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "platform": "linux",
       "registry_kind": "cli",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/bwa_mem_align-1.0.0/bwa_mem_align-1.0.0.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/bwa_mem_align-1.0.0/bwa_mem_align-1.0.0.zip.sig",
-      "sha256": "f88a297812c2f4d65d0b510b19617c7e1991a5d52e0574d44afa54b8c6399d46",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/bwa_mem_align-1.0.1/bwa_mem_align-1.0.1.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/bwa_mem_align-1.0.1/bwa_mem_align-1.0.1.zip.sig",
+      "sha256": "be5294fd8738a21728489ac8cc3b5819b155f9865162c895c1014ba07db841f0",
       "changelog": {
-        "zh": "首次发布。支持单端和双端 DNA 短读段比对、读组信息、Samtools 排序与索引，以及可选重复标记。",
-        "en": "Initial release with single- and paired-end DNA short-read alignment, read groups, Samtools sorting and indexing, and optional duplicate marking."
+        "zh": "开发者更新为 Why。",
+        "en": "Update developer to Why."
       },
       "min_app_version": "1.0.3",
       "docker_image": "quay.io/biocontainers/samtools:1.24--h9dcdb79_1",
       "developer_signature": {
         "tool_name": "BWA-MEM2 序列比对",
-        "developer": "Daoker",
+        "developer": "Why",
         "develop_time": "2026-04-06"
       }
     },
@@ -2082,21 +2082,21 @@
         "zh": "序列比对",
         "en": "Sequence Alignment"
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "platform": "linux",
       "registry_kind": "cli",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/bwa_mem_build-1.0.0/bwa_mem_build-1.0.0.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/bwa_mem_build-1.0.0/bwa_mem_build-1.0.0.zip.sig",
-      "sha256": "18a8f3d689cca208d8e7458bdbe3cabb8c37a842d232c32783b7fdd66c78baa4",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/bwa_mem_build-1.0.1/bwa_mem_build-1.0.1.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/bwa_mem_build-1.0.1/bwa_mem_build-1.0.1.zip.sig",
+      "sha256": "f7098d4c5aefa4cba25b1121e8c0a5a45107bffc2eab985f28a1aaf4a8e1203c",
       "changelog": {
-        "zh": "首次发布。支持安全索引前缀、完整索引校验、已有结果保护和失败清理。",
-        "en": "Initial release with validated index prefixes, complete-index checks, existing-output protection, and failure cleanup."
+        "zh": "开发者更新为 Why。",
+        "en": "Update developer to Why."
       },
       "min_app_version": "1.0.3",
       "docker_image": "quay.io/biocontainers/samtools:1.24--h9dcdb79_1",
       "developer_signature": {
         "tool_name": "BWA-MEM2 建立索引",
-        "developer": "Daoker",
+        "developer": "Why",
         "develop_time": "2026-04-06"
       }
     }
