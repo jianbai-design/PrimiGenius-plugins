@@ -19,13 +19,13 @@
         "zh": "高级可视化",
         "en": "Advanced Visualization"
       },
-      "version": "1.0.0",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/volcano_panel-1.0.0/volcano_panel-1.0.0.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/volcano_panel-1.0.0/volcano_panel-1.0.0.zip.sig",
-      "sha256": "d2542e20fbc462dffc95f2337fb92201c7ac19eedb126314cc2828136a5f6170",
+      "version": "1.0.1",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/volcano_panel-1.0.1/volcano_panel-1.0.1.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/volcano_panel-1.0.1/volcano_panel-1.0.1.zip.sig",
+      "sha256": "437b3ea0c5db8608d5b5d47d5156d455972efa944e1ebc455f6322eb0fc0c985",
       "changelog": {
-        "zh": "首次发布",
-        "en": "Initial release"
+        "zh": "修复火山图 Up、Down、NS 图例文字、数量与颜色错位，兼容缺失分组和自定义颜色。",
+        "en": "Fix mismatched Up, Down and NS legend labels, counts and colors, including absent groups and custom colors."
       },
       "min_app_version": "1.0.3",
       "icon": "fa-mountain",
