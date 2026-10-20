@@ -1,7 +1,7 @@
 {
   "registry_version": "1.0",
   "registry_kind": "r",
-  "generated_at": "2026-08-23T09:45:17.699Z",
+  "generated_at": "2026-10-20T05:13:12Z",
   "plugins": [
     {
       "id": "volcano_panel",
@@ -348,13 +348,13 @@
         "en": "Enrichment Analysis",
         "zh": "富集分析"
       },
-      "version": "1.0.2",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.2/go_kegg_enrichment-1.0.2.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.2/go_kegg_enrichment-1.0.2.zip.sig",
-      "sha256": "0f7a479e78c88d30a527245e80b0c6100adbef8e0a1d63bccd721a446e6e2959",
+      "version": "1.0.3",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.3/go_kegg_enrichment-1.0.3.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/go_kegg_enrichment-1.0.3/go_kegg_enrichment-1.0.3.zip.sig",
+      "sha256": "7dc000d495c337393e1ffc2062a89e96e423979e3d3028a3a7904187784a5348",
       "changelog": {
-        "zh": "新增本地或强制更新 GO OBO 的持久缓存与解析复用；增加分阶段进度日志；使用内存索引加速有效基因集输出；OBO 来源与上传框调整为等宽布局",
-        "en": "Added persistent parsed GO OBO caching with local or forced-refresh modes, detailed progress logs, indexed in-memory generation of effective gene-set output, and an equal-width OBO source/upload layout"
+        "zh": "修复清空绘图类型后仍生成默认气泡图的问题；保留初始气泡图默认选项及旧任务兼容行为。",
+        "en": "Fix default dotplots being generated after all plot types are deselected; preserve the initial dotplot default and legacy task compatibility."
       },
       "min_app_version": "1.0.3",
       "icon": "fa-flask",
