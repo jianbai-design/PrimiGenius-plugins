@@ -1,7 +1,7 @@
 {
   "registry_version": "1.0",
   "registry_kind": "cli",
-  "generated_at": "2026-09-26T13:14:42.000Z",
+  "generated_at": "2026-11-08T09:10:37.582Z",
   "plugins": [
     {
       "id": "linux_blast_basic_toolkit",
@@ -1264,13 +1264,13 @@
         "zh": "多序列比对可视化",
         "en": "Alignment Visualization"
       },
-      "version": "1.0.0",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/MSA_View-1.0.0/MSA_View-1.0.0.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/MSA_View-1.0.0/MSA_View-1.0.0.zip.sig",
-      "sha256": "b809540813738009c27f8b32c48887e748679406cbec16720929193b135791ae",
+      "version": "1.0.1",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/MSA_View-1.0.1/MSA_View-1.0.1.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/MSA_View-1.0.1/MSA_View-1.0.1.zip.sig",
+      "sha256": "6ad73e71435a3456a3527b486d2d7ae9326f2ba9fda5b8da2c42ecd93ed6ab66",
       "changelog": {
-        "zh": "首次发布",
-        "en": "Initial release"
+        "zh": "升级内置 JAR，更新序列显示、Identity 概览及勾选序列导出功能。",
+        "en": "Upgrade the bundled JAR with alignment display, Identity overview, and checked-sequence export updates."
       },
       "min_app_version": "1.0.3",
       "developer_signature": {
@@ -1322,13 +1322,13 @@
         "zh": "序列比对与文件预览",
         "en": "Alignment & File Preview"
       },
-      "version": "1.0.0",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/MSA_BIGfile_View-1.0.0/MSA_BIGfile_View-1.0.0.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/MSA_BIGfile_View-1.0.0/MSA_BIGfile_View-1.0.0.zip.sig",
-      "sha256": "2f4b21347a32befa8d32f1cd0e588dda80c7ca46d7f28827956e83a68695d1bb",
+      "version": "1.0.1",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/MSA_BIGfile_View-1.0.1/MSA_BIGfile_View-1.0.1.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/MSA_BIGfile_View-1.0.1/MSA_BIGfile_View-1.0.1.zip.sig",
+      "sha256": "f525ffc0d3f09320f5abcc41462fdfb485be940916023dfadd9358816a54f50c",
       "changelog": {
-        "zh": "首次发布",
-        "en": "Initial release"
+        "zh": "升级内置 JAR，更新序列显示、Identity 概览及勾选序列导出功能。",
+        "en": "Upgrade the bundled JAR with alignment display, Identity overview, and checked-sequence export updates."
       },
       "min_app_version": "1.0.3",
       "developer_signature": {
