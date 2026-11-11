@@ -1,7 +1,7 @@
 {
   "registry_version": "1.0",
   "registry_kind": "r",
-  "generated_at": "2026-10-20T05:13:12Z",
+  "generated_at": "2026-11-11T11:24:22Z",
   "plugins": [
     {
       "id": "volcano_panel",
@@ -373,6 +373,57 @@
         "developer": "Daoker",
         "develop_time": "2026-06-01"
       }
+    },
+    {
+      "id": "correlation_heatmap",
+      "name": {
+        "zh": "相关性热图",
+        "en": "Correlation Heatmap"
+      },
+      "description": {
+        "zh": "支持两种相关性可视化风格：三角形气泡相关图与矩形热图。",
+        "en": "Support two correlation visualization styles: bubble corr plot (Figure 2) and tile heatmap (Figure 3)."
+      },
+      "type": "R_panel",
+      "category": {
+        "zh": "高级可视化",
+        "en": "Advanced Visualization"
+      },
+      "version": "1.0.1",
+      "icon": "fa-th",
+      "icon_color": "#1565C0",
+      "docker_image": "rocker/r-ver:latest",
+      "packages": [
+        "ggplot2",
+        "corrplot",
+        "reshape2",
+        "ggplotify",
+        "ggcorrplot",
+        "ComplexHeatmap",
+        "circlize",
+        "pheatmap",
+        "openxlsx",
+        "gplots",
+        "stringr",
+        "readxl",
+        "data.table",
+        "svglite"
+      ],
+      "author": "PrimiGenius",
+      "developer_signature": {
+        "tool_name": "相关性热图增强版",
+        "developer": "Daoker",
+        "develop_time": "2026-04-11"
+      },
+      "registry_kind": "r",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/correlation_heatmap-1.0.1/correlation_heatmap-1.0.1.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/correlation_heatmap-1.0.1/correlation_heatmap-1.0.1.zip.sig",
+      "sha256": "9f67c188fbe78b5edbb082c4c582ef0d8a53f17cae1a737f9bff4d0360f580f9",
+      "changelog": {
+        "zh": "将不显著处理、显示数字和数字大小排列在同一行，保留现有参数默认值。",
+        "en": "Place Insignificant, Show Number and Number Size on one row while preserving existing parameter defaults."
+      },
+      "min_app_version": "1.0.3"
     }
   ]
 }
