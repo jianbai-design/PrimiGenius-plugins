@@ -1,7 +1,7 @@
 {
   "registry_version": "1.0",
   "registry_kind": "r",
-  "generated_at": "2026-11-11T11:24:22Z",
+  "generated_at": "2026-11-21T14:03:13Z",
   "plugins": [
     {
       "id": "volcano_panel",
@@ -19,13 +19,13 @@
         "zh": "高级可视化",
         "en": "Advanced Visualization"
       },
-      "version": "1.0.1",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/volcano_panel-1.0.1/volcano_panel-1.0.1.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/volcano_panel-1.0.1/volcano_panel-1.0.1.zip.sig",
-      "sha256": "437b3ea0c5db8608d5b5d47d5156d455972efa944e1ebc455f6322eb0fc0c985",
+      "version": "1.0.2",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/volcano_panel-1.0.2/volcano_panel-1.0.2.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/volcano_panel-1.0.2/volcano_panel-1.0.2.zip.sig",
+      "sha256": "127e40d55695b7d4d33049642d4abc8465e808adb26a85df54569ac5ba762b8c",
       "changelog": {
-        "zh": "修复火山图 Up、Down、NS 图例文字、数量与颜色错位，兼容缺失分组和自定义颜色。",
-        "en": "Fix mismatched Up, Down and NS legend labels, counts and colors, including absent groups and custom colors."
+        "zh": "统一输出目录为工作目录（params$outDir %||% \"/workspace\"），兼容只读零拷贝挂载与工作流模式，并向下兼容旧版主程序。",
+        "en": "Write outputs to container workspace (params$outDir %||% \"/workspace\") for read-only zero-copy mount and workflow compatibility while preserving backward compatibility."
       },
       "min_app_version": "1.0.3",
       "icon": "fa-mountain",
