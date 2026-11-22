@@ -1,7 +1,7 @@
 {
   "registry_version": "1.0",
   "registry_kind": "cli",
-  "generated_at": "2026-11-08T09:10:37.582Z",
+  "generated_at": "2026-11-22T07:43:10.798Z",
   "plugins": [
     {
       "id": "linux_blast_basic_toolkit",
@@ -2130,6 +2130,38 @@
         "tool_name": "fastp 质控 (PE/SE)",
         "developer": "Daoker",
         "develop_time": "2026-04-06"
+      }
+    },
+    {
+      "id": "fasta_toolbox",
+      "name": {
+        "zh": "序列处理多功能工具箱",
+        "en": "Multifunctional Sequence Processing Toolbox"
+      },
+      "description": {
+        "zh": "FASTA 统计、提取、重命名、合并拆分、注释与区间提取、CDS 翻译、长度过滤、去重、反向互补和 FASTQ 转 FASTA。支持 gzip 输入。",
+        "en": "FASTA statistics, extraction, renaming, merge/split, annotation and interval extraction, CDS translation, length filtering, deduplication, reverse complement and FASTQ conversion. Accepts gzip inputs."
+      },
+      "type": "cli",
+      "registry_kind": "cli",
+      "category": {
+        "zh": "序列处理",
+        "en": "Sequence Processing"
+      },
+      "version": "1.0.0",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/fasta_toolbox-1.0.0/fasta_toolbox-1.0.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/fasta_toolbox-1.0.0/fasta_toolbox-1.0.0.zip.sig",
+      "sha256": "caae6bb81b7317d791e3048c115b0e348e44b1e4469af2478abbb3e6bb7c9b1f",
+      "changelog": {
+        "zh": "首次发布。提供 FASTA 统计、整理、注释与坐标提取、CDS 翻译和 FASTQ 转换，支持 gzip 输入。",
+        "en": "Initial release with FASTA statistics and editing, annotation and interval extraction, CDS translation, FASTQ conversion, and gzip input."
+      },
+      "min_app_version": "1.0.3",
+      "docker_image": "docker.io/library/ubuntu:22.04",
+      "developer_signature": {
+        "tool_name": "序列处理多功能工具箱",
+        "developer": "Daoker",
+        "develop_time": "2026-11-12"
       }
     }
   ]
