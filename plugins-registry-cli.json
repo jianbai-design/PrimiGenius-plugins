@@ -1,7 +1,7 @@
 {
   "registry_version": "1.0",
   "registry_kind": "cli",
-  "generated_at": "2026-11-22T07:43:10.798Z",
+  "generated_at": "2026-11-24T03:18:01.776Z",
   "plugins": [
     {
       "id": "linux_blast_basic_toolkit",
@@ -2163,6 +2163,37 @@
         "developer": "Daoker",
         "develop_time": "2026-11-12"
       }
+    },
+    {
+      "id": "sra_data_download_high_speed_auto",
+      "name": {
+        "zh": "SRA 高速下载（自动单双端）",
+        "en": "SRA High-Speed Download (Auto Layout)"
+      },
+      "description": {
+        "zh": "从 NCBI 官方 AWS 公共桶分片高速下载完整质量 SRA，自动识别单端或双端，批量任务支持下载与本地 FASTQ 转换压缩流水线并行，再用 fasterq-dump 与 pigz 生成并校验 FASTQ。插件自带离线运行环境，首次运行本地构建镜像，不依赖公共镜像站。",
+        "en": "Downloads full-quality SRA objects from the official NCBI AWS public bucket with resumable ranges, automatically detects SINGLE, PAIRED, or MULTI layout per accession, overlaps next-run S3 prefetching with local conversion in batch mode, and creates verified FASTQ files with fasterq-dump and pigz."
+      },
+      "category": {
+        "zh": "数据下载",
+        "en": "Data Download"
+      },
+      "version": "2.0.3",
+      "type": "cli",
+      "docker_image": "localhost/primigenius/sra-fastq-auto-store:2.0.0",
+      "developer_signature": {
+        "developer": "XvZiQiang"
+      },
+      "registry_kind": "cli",
+      "community_plugin_id": "community_242235968_sra_data_download_high_speed_auto",
+      "min_app_version": "1.0.6",
+      "changelog": {
+        "zh": "插件商店首次收录。基于自由市场 2.0.3，保留批量流水线、自动布局识别和离线运行环境。",
+        "en": "First Plugin Store release, based on Community Market 2.0.3 with batch pipelining, automatic layout detection and the offline runtime."
+      },
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/sra_data_download_high_speed_auto-2.0.3/sra_data_download_high_speed_auto-2.0.3.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/sra_data_download_high_speed_auto-2.0.3/sra_data_download_high_speed_auto-2.0.3.zip.sig",
+      "sha256": "d6a3df4702f181553ceb593f15cdad1d347107e7a9301be44cfd50aebb20740c"
     }
   ]
 }
