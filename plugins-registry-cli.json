@@ -51,13 +51,13 @@
         "zh": "数据下载",
         "en": "Data Download"
       },
-      "version": "1.2.0",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_sra_tools_download-1.2.0/linux_sra_tools_download-1.2.0.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_sra_tools_download-1.2.0/linux_sra_tools_download-1.2.0.zip.sig",
-      "sha256": "99f3339f0d06cecf6aa0147222e710caea966a21d6886f7c5611c27d78ea829a",
+      "version": "1.2.1",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_sra_tools_download-1.2.1/linux_sra_tools_download-1.2.1.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_sra_tools_download-1.2.1/linux_sra_tools_download-1.2.1.zip.sig",
+      "sha256": "400489ccd7ae5014a8b329e3cabdba64df4e61c3b89718deb975744dfc43da7b",
       "changelog": {
-        "zh": "移除 Alpine 镜像不兼容的 Aspera 安装包与无效参数，新增批量多样本并行、ENA 字节级断点续传与 MD5 校验、NCBI prefetch 已完成跳过及全模式列对齐排版优化。",
-        "en": "Removed incompatible Aspera installer and unused parameters; added batch multi-accession parallelism, ENA byte-level resume with MD5/gzip verification, NCBI prefetch skip-if-complete, and aligned UI layout."
+        "zh": "修复 ENA 大文件断流重试次数限制：只要续传取得字节进展即重置连续失败计数，支持超 4 GB 文件多轮自动断点接力续传；包含 v1.2.0 多样本并行、MD5/gzip 校验与列对齐优化。",
+        "en": "Improved ENA large-file resume retry budgeting: resets consecutive failure count whenever bytes advance, supporting multi-round resume on >4 GB files; includes v1.2.0 batch parallelism, MD5/gzip verification, and aligned layout."
       },
       "min_app_version": "1.0.3",
       "docker_image": "registry.hub.docker.com/ncbi/sra-tools:latest",
