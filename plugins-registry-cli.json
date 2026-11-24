@@ -42,8 +42,8 @@
         "en": "SRA Data Download"
       },
       "description": {
-        "zh": "支持 ENA 直连并行下载 + NCBI prefetch 下载，以及本地 .sra 直接拆分为 FASTQ。",
-        "en": "Supports ENA direct download, NCBI prefetch download, plus local .sra to FASTQ splitting."
+        "zh": "支持 ENA 直连高速下载、NCBI prefetch 下载，以及本地 .sra 文件直接拆分为 FASTQ。",
+        "en": "Supports ENA direct download, NCBI prefetch download, and local .sra to FASTQ splitting."
       },
       "type": "cli",
       "registry_kind": "cli",
@@ -51,13 +51,13 @@
         "zh": "数据下载",
         "en": "Data Download"
       },
-      "version": "1.0.0",
-      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_sra_tools_download-1.0.0/linux_sra_tools_download-1.0.0.zip",
-      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_sra_tools_download-1.0.0/linux_sra_tools_download-1.0.0.zip.sig",
-      "sha256": "4fb0183befb53c5f41c0d847dc5bb7265cb702b70b3410811d7ea3585faa2d1b",
+      "version": "1.2.0",
+      "download_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_sra_tools_download-1.2.0/linux_sra_tools_download-1.2.0.zip",
+      "signature_url": "https://github.com/jianbai-design/PrimiGenius-plugins/releases/download/linux_sra_tools_download-1.2.0/linux_sra_tools_download-1.2.0.zip.sig",
+      "sha256": "99f3339f0d06cecf6aa0147222e710caea966a21d6886f7c5611c27d78ea829a",
       "changelog": {
-        "zh": "首次发布",
-        "en": "Initial release"
+        "zh": "移除 Alpine 镜像不兼容的 Aspera 安装包与无效参数，新增批量多样本并行、ENA 字节级断点续传与 MD5 校验、NCBI prefetch 已完成跳过及全模式列对齐排版优化。",
+        "en": "Removed incompatible Aspera installer and unused parameters; added batch multi-accession parallelism, ENA byte-level resume with MD5/gzip verification, NCBI prefetch skip-if-complete, and aligned UI layout."
       },
       "min_app_version": "1.0.3",
       "docker_image": "registry.hub.docker.com/ncbi/sra-tools:latest",
